@@ -1,0 +1,44 @@
+@media only screen and (max-width:1023px) {
+	#laptop {
+		display: none;
+	}
+	.header {
+		display: none;
+	}
+} 
+
+@media only screen and (min-width:1024px){
+.mobile {
+	display: none;
+	}
+}
+
+@media only screen and (max-width: 880px){
+	.description{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		}
+
+		.description div {
+			height: 50%;
+			width: 100%;
+		}
+	
+		.description div p {
+			text-align: justify;
+			font-size: 2rem;
+			padding: 0 10%;
+			line-height: 3rem;
+		}
+		span {
+			font-size: 2rem;
+			}
+
+		.description #batman img {
+			height: 40rem;
+		}
+}
+
+
+

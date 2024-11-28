@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1vw;
+	font-family: Roboto;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.green {
+	color: greenyellow;
+}
+
+/* ---LAPTOP & TABLET---*/
+
+#laptop {
+	width: 100vw;
+	background-color: black;
+	padding-bottom: 10px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+}
+
+#logo {
+	font-family: phosphate;
+	font-size: 1.5rem;
+}
+
+.header {
+	width: 100vw;
+	color: whitesmoke;
+}
+
+nav {
+	background-color: black;
+	padding: 0 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul li{
+	display: inline;
+	padding: 0 1rem;
+	font-size: 1.25rem;
+}
+
+nav li a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+	color: greenyellow;
+}
+
+.description {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+
+.description div {
+	display: flex;
+	width: 50%;
+	align-items: center;
+}
+
+.description div p {
+	width: 100%;
+	line-height: 2.25rem;
+	font-size: 1.25rem;
+	text-align: justify;
+}
+
+.description #batman{
+	width: fit-content;
+	display: flex;
+	justify-content: center;
+}
+
+.description #batman img {
+	height: 20rem;
+	border-radius: 20px;
+}
+
+span{
+	padding: 1rem;
+	background-color: black;
+	color:greenyellow;
+	font-family: doto;
+	border: 2px solid gray;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+span:hover {
+	background-color: greenyellow;
+	color: white;
+}
+
+
+
+
+/*---MOBILE--*/
+
+.mobile{
+	background-color: black;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	z-index: -2;
+	overflow: hidden;
+}
+
+.banner {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100vw;
+	margin: auto 0;
+	border-top: 0.75px solid whitesmoke;
+	border-bottom: 0.75px solid whitesmoke;
+	background-color: black;
+	color: whitesmoke;
+}
+
+.banner p {
+	font-family: doto;
+	font-size: 2.5vw;
+}
+
+#mobile {
+	position: absolute;
+	width: 90vw;
+	z-index: 0;
+}
+
+.background img {
+	width: 100vw;
+	height: 75vw;
+	z-index: 1;
+}
