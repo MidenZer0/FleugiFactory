@@ -1,3 +1,36 @@
+@media only screen and (min-width:1024px){
+	.mobile {
+		display: none;
+		}
+	}
+
+	
+@media only screen and (max-width:1024px){
+	#member img{
+		width: 8rem;
+		vertical-align: middle;
+	}
+		
+	.client div, span{
+		font-size: 1.5rem ;
+	}
+		
+	.client p {
+		text-align: left;
+		font-size: 1.5rem;
+	}
+
+	footer li, h2{
+		font-size: 1.5rem;
+		line-height: 2em;
+	}
+
+	.social-media img {
+		width: 4rem;
+	}
+}
+
+
 @media only screen and (max-width:1023px) {
 	#laptop {
 		display: none;
@@ -7,17 +40,12 @@
 	}
 } 
 
-@media only screen and (min-width:1024px){
-.mobile {
-	display: none;
-	}
-}
 
 @media only screen and (max-width: 880px){
 	.description{
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-around;
 		}
 
 		.description div {
@@ -27,17 +55,122 @@
 	
 		.description div p {
 			text-align: justify;
-			font-size: 2rem;
+			font-size: 1.75rem;
 			padding: 0 10%;
 			line-height: 3rem;
 		}
-		span {
-			font-size: 2rem;
+		
+		.description span {
+			font-size: 1.75rem;
 			}
 
 		.description #batman img {
+			margin-top: 2rem;
 			height: 40rem;
 		}
+
+		#member img{
+			width: 8rem;
+			vertical-align: middle;
+		}
+			
+		.client div, span{
+			font-size: 1.75rem ;
+		}
+			
+		.client p {
+			text-align: left;
+			font-size: 1.75rem;
+		}
+	
+		footer li, h2{
+			font-size: 1.75rem;
+			line-height: 2em;
+		}
+	
+		.social-media img {
+			width: 4.5rem;
+		}
+}
+
+@media only screen and (max-width:460px){
+
+	.description {
+		height: auto;
+	}
+
+	 .description div p {
+		height: 100vh;
+		line-height: 5.5rem;
+		font-size: 4rem;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-evenly;
+		justify-content: center;
+	 }
+
+	 .description span {
+	font-size: 5rem;
+	 }
+
+.container {
+	display: flex;
+	flex-direction: column;
+	}
+
+	#div2 .phosphate {
+	font-size: 8rem;
+}
+
+#programms {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.course {
+	filter: none;
+}
+
+.course {
+	width: 96%;
+	height: 29vh;
+	background-position: 50% 25%;
+	}
+
+	.course h1 {
+		font-size: 5rem;
+	}
+
+#slap {
+	background-position: 50% 15% ;
+	}
+	#member img{
+		width: 8rem;
+		vertical-align: middle;
+	}
+
+	#member .phosphate {
+		font-size:5rem ;
+	}
+		
+	.client div, span{
+		font-size: 3.15rem ;
+	}
+		
+	.client p {
+		text-align: left;
+		font-size: 3.15rem;
+		line-height: 5rem;
+	}
+
+	footer li, h2{
+		font-size: 2.5rem;
+		line-height: 2em;
+	}
+
+	.social-media img {
+		width: 5rem;
+	}
 }
 
 

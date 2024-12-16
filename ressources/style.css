@@ -5,6 +5,22 @@
 	font-family: Roboto;
 }
 
+body {
+	background: black;
+}
+
+.phosphate {
+	font-family: phosphate;
+}
+
+.doto {
+	font-family: doto;
+}
+
+.roboto {
+	font-family: roboto;
+}
+
 .bold {
 	font-weight: bold;
 }
@@ -17,25 +33,38 @@
 	color: greenyellow;
 }
 
-/* ---LAPTOP & TABLET---*/
+.red {
+	color: red;
+}
+
+.white {
+	color: whitesmoke;
+}
+
+.bgblack {
+	background-color: black;
+}
+
+
+
+/* ---LAPTOP & TABLET HEADER---*/
 
 #laptop {
-	width: 100vw;
+	width: 100%;
 	background-color: black;
 	padding-bottom: 10px;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
-	
 }
 
 #logo {
-	font-family: phosphate;
 	font-size: 1.5rem;
 }
 
 .header {
-	width: 100vw;
+	width: 100%;
 	color: whitesmoke;
+	overflow: hidden;
 }
 
 nav {
@@ -46,7 +75,7 @@ nav {
 	align-items: center;
 }
 
-ul li{
+nav ul li{
 	display: inline;
 	padding: 0 1rem;
 	font-size: 1.25rem;
@@ -62,11 +91,14 @@ nav li a:hover {
 	color: greenyellow;
 }
 
+/* --- DESCRIPTION ---*/
+
 .description {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	height: 100vh;
+	background-color: white;
 }
 
 .description div {
@@ -80,10 +112,12 @@ nav li a:hover {
 	line-height: 2.25rem;
 	font-size: 1.25rem;
 	text-align: justify;
+	background-color: white;
 }
 
 .description #batman{
 	width: fit-content;
+	height: fit-content;
 	display: flex;
 	justify-content: center;
 }
@@ -91,9 +125,10 @@ nav li a:hover {
 .description #batman img {
 	height: 20rem;
 	border-radius: 20px;
+	margin-bottom: 20px;
 }
 
-span{
+.description span{
 	padding: 1rem;
 	background-color: black;
 	color:greenyellow;
@@ -103,20 +138,279 @@ span{
 	font-weight: bold;
 }
 
-span:hover {
+.description span:hover {
 	background-color: greenyellow;
 	color: white;
 }
 
+/* --- PROGRAMMS & COACHES ---*/
+
+#div2 {
+	width: 100%;
+	height: 100vh;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#programms {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+ #div2 .phosphate {
+	padding-top: 10px;
+	font-size: 5vw;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.course {
+	width: 31%;
+	height: 85vh;
+	border: 3px solid greenyellow;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(100%);
+}
+
+.course:hover {
+	filter: grayscale(0%);
+}
+
+.course h1 {
+	font-size: 3rem;
+	color: greenyellow;
+	text-shadow: 2px 2px 4px black;
+}
+
+#power {
+	background-image: url(./images/Power.webp);
+}
+
+#weightlifting {
+	background-image: url(./images/weight.webp);
+}
+
+#slap {
+	background-image: url(./images/slap.webp);
+}
+
+/* --- REVIEW MEMBERS ---*/
+
+#review {
+	background-color: black;
+	display: flex;
+	align-items: center;
+}
+
+.rotate-left {
+	width: fit-content;
+	writing-mode: vertical-lr;
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	color: whitesmoke;
+}
+
+#member {
+	border-radius: 20px;
+	background-color: whitesmoke;
+	width: 100%;
+	height: 100vh;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+#member .phosphate {
+	font-size: 3vw;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 20px;
+	height: 100%;
+}
+
+.client {
+	width: auto;
+	padding: 10px;
+	box-shadow: 2px 2px 4px;
+	margin: 10px;
+	height: 30%;
+	}
+
+.client p {
+	text-align: left;
+}
+
+.rotate-right {
+	width: fit-content;
+	writing-mode: vertical-rl;
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	color: whitesmoke;
+}
+
+.rotate-right p, .rotate-left p {
+	font-size: 1.20em;
+	flex-wrap: nowrap;
+}
+
+#member img{
+	width: 5rem;
+	vertical-align: middle;
+}
+
+#truc {
+	height: 50vh;
+	background: rgb(245,245,245);
+	background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgba(0,0,0,1) 50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#join {
+	font-size: 3vw;
+	text-align: center;
+}
+
+#adherents {
+	width: 100%;
+	height: 100%;
+	padding: 5px 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.avatar {
+	width: 14.3%;
+	height: 90%;
+	margin: 5px;
+	background-size: cover;
+	background-position:center;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.avatar p {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	line-height: 2rem;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.avatar p:hover {
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0.353);
+}
 
 
 
-/*---MOBILE--*/
+#alora {
+	background-image: url(./images/Alora\ Griffith.webp);
+	
+}
+
+#erika {
+	background-image: url(./images/Erika\ Bergstrom.webp);
+
+}
+
+#liam {
+	background-image: url(./images/Liam\ Oconnor.webp);
+	
+}
+
+#luka {
+	background-image: url(./images/Luka\ Bianchi.webp);
+
+}
+
+#dan {
+	background-image: url(./images/Dan\ Russo.webp);
+	
+}
+
+#derek {
+	background-image: url(./images/Derek\ Owens.webp);
+	
+}
+
+#edward {
+	background-image: url(./images/Edward\ Howell.webp);
+
+}
+
+/*--- FOOTER ---*/
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+	background-color: whitesmoke;
+	color: black;
+}
+
+footer li {
+	display: flex;
+	line-height: 2.5rem;
+}
+
+.footer-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.social-media ul li {
+	display: inline;
+}
+
+
+.social-media img {
+	width: 3rem;
+	margin: 10px 10px 0 0;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+/*--- MOBILE HEADER ---*/
 
 .mobile{
 	background-color: black;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -143,7 +437,7 @@ span:hover {
 
 #mobile {
 	position: absolute;
-	width: 90vw;
+	width: 100vw;
 	z-index: 0;
 }
 
@@ -152,3 +446,6 @@ span:hover {
 	height: 75vw;
 	z-index: 1;
 }
+
+
+
